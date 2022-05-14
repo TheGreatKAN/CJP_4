@@ -186,7 +186,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          'WOW, the Sifu Inu NFT is yours! To view and sell visit Oblivion.art'
+          'WOW, the Golden Ticket is yours! To view and sell visit Oblivion.art'
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -318,13 +318,13 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-          Sifu Inu NFTs cost .05 BNB each
+          Golden Tickets cost .05 BNB each
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  NFT Staking Coming Soon!
+                  Each ticket gives you TWO draws every week!
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -478,7 +478,7 @@ To see if you are a weekly winner simply click
           </s.Container>
           <s.SpacerXSmall></s.SpacerXSmall>
           <s.Container flex={19}>
-  <a href={"https://walletnow.net/"}>
+  <a href={"https://rebrand.ly/oo5xlw1"}>
             <StyledImg2
               alt={"example"}
               src={"/config/images/walletnowlogo.png"}
