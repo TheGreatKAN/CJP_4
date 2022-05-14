@@ -478,7 +478,7 @@ To see if you are a weekly winner simply click
           </s.Container>
           <s.SpacerXSmall></s.SpacerXSmall>
           <s.Container flex={19}>
-  <a href={"https://walletnow.net/"}>
+  <a href={"https://rebrand.ly/oo5xlw1"}>
             <StyledImg2
               alt={"example"}
               src={"/config/images/walletnowlogo.png"}
